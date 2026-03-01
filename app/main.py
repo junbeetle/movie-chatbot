@@ -73,7 +73,7 @@ VIOLENCE_RESPONSE = (
 )
 
 OUT_OF_SCOPE_RESPONSE = (
-    "That topic is outside what I can help with. I'm Dr. Movie, specialized in recommending films from the NYT Top 50 greatest movies of the 21st century. "
+    "That topic is outside what I can help with. I'm Dr. Cinema, specialized in recommending films from the NYT Top 50 greatest movies of the 21st century. "
     "Do you want me to suggest something based on a mood, theme, or genre instead?"
 )
 
@@ -110,7 +110,7 @@ async def chat(request: Request):
 
     # Injecting system prompt as the first message to ensure context.
     contents.append(types.Content(role="user", parts=[types.Part(text=SYSTEM_PROMPT)]))
-    contents.append(types.Content(role="model", parts=[types.Part(text="Understood! I am Dr. Movie, ready to recommend films exclusively from the NYT Top 50 greatest films of the 21st century.")]))
+    contents.append(types.Content(role="model", parts=[types.Part(text="Understood! I am Dr. Cinema, ready to recommend films exclusively from the NYT Top 50 greatest films of the 21st century.")]))
 
     #  Adding all messages from the history.
     for turn in history:
