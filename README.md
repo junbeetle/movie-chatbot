@@ -10,7 +10,7 @@ New York Times' list of 50 greatest movies in the 21st century. Tell Dr. Cinema 
 mood, a theme, a genre, or a director — and get personalized recommendations instantly.
 
 ## Live URL
-*(add after deployment)*
+(https://dr-cinema-836832472845.us-central1.run.app/)
 
 ## How to Run Locally
 Python, uv, and the gcloud CLI are required. A GCP project with Vertex AI enabled and application default credentials need to be set up.
