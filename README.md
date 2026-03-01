@@ -24,7 +24,7 @@ cd movie-chatbot
 ### 2. Log in with GCP credentials
 ```
 gcloud auth application-default login
-gcloud auth application-default set-quota-project proejct ID
+gcloud auth application-default set-quota-project project ID
 ```
 
 ### 3. Set your project ID in main.py
@@ -47,7 +47,7 @@ Once the server is first running, open a second terminal:
 ```
 uv run python eval/run_eval.py
 ```
-Results will be saled to eval/results.json
+Results will be saved to eval/results.json
 
 ## Project Structure
 
