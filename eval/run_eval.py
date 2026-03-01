@@ -43,7 +43,7 @@ def deterministic_check(response: str, expected_keywords: list[str]) -> bool:
 
 # Metric 2a: MaaJ grading with a rubric against expected behavior
 def maaj_grade(question: str, response: str, expected_behavior: str) -> tuple[bool, str]:
-    judge_prompt = f"""You are grading a movie recommendation chatbot called Dr. Movie.
+    judge_prompt = f"""You are grading a movie recommendation chatbot called Dr. Cinema.
 
 Question asked: {question}
 
@@ -106,7 +106,7 @@ def run_evals():
     results = []
     category_totals = {}
 
-    print("DR. MOVIE EVALUATION SUMMARY")
+    print("Dr. Cinema EVALUATION SUMMARY")
     print(f"Running {len(TEST_CASES)} test cases...\n")
 
     for i, test in enumerate(TEST_CASES, 1):

@@ -1,12 +1,12 @@
-# Dr. Movie — NY Times Top 50 Movies Recommender
+# Dr. Cinema — NY Times Top 50 Movies Recommender
 
 **Author:** Huckjun Hong (hh2772)
 **Course:** IEOR 4576 — Agentic AI for Analytics  
 **Project:** Project 1 (Domain Q&A Chatbot)
 
 ## About
-Dr. Movie is a chatbot that can help you find your next favorite film from the 
-New York Times' list of 50 greatest movies in the 21st century. Tell Dr. Movie your 
+Dr. Cinema is a chatbot that can help you find your next favorite film from the 
+New York Times' list of 50 greatest movies in the 21st century. Tell Dr. Cinema your 
 mood, a theme, a genre, or a director — and get personalized recommendations instantly.
 
 ## Live URL
